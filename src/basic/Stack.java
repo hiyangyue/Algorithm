@@ -25,7 +25,7 @@ public class Stack<E> {
      **/
     public void push(E e) {
         Node<E> oldFirst = first;
-        first = new Node<
+        first = new Node<>();
         first.item = e;
         first.next = oldFirst;
         n++;
